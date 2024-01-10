@@ -1,0 +1,13 @@
+
+@baseUrl = http://localhost:3000/api/
+
+GET {{baseUrl}}timezones HTTP/1.1
+
+###
+
+GET {{baseUrl}}timezones/group/America HTTP/1.1
+###
+
+GET {{baseUrl}}timezones/city/Montevideo HTTP/1.1
+
+
